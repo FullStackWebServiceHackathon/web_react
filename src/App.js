@@ -31,7 +31,7 @@ function App() {
       
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">여행 플래너</Navbar.Brand>
+        <Navbar.Brand href="#home">끝까지 가면 다깨</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
