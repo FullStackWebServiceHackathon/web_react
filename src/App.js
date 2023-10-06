@@ -48,9 +48,9 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    
+
     <div className = "black-nav">
-      <h4>ReactBlog</h4>
+      <h4>초전도체탕후루</h4>
     </div>
 
     <button onClick = {()=>{
