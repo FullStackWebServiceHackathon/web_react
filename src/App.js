@@ -14,7 +14,7 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">대규의 신발가게</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home">초전자탕후루실험실 아지트</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             <NavDropdown title="My Info" id="basic-nav-dropdown">
