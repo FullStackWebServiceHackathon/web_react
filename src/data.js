@@ -8,7 +8,7 @@ let data = [
     },
     {
         id: 1,
-        title: "Red Knit",
+        title: "지훈이가준쿼캉운동화",
         content: "Born in Seoul",
         price: 110000
     },
