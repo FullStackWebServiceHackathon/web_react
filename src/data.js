@@ -14,7 +14,7 @@ let data = [
     },
     {
         id: 2,
-        title: "Grey Yordan",
+        title: "회색 운동화 코리아 구찌에디션",
         content: "Born in the States",
         price: 130000
     }
