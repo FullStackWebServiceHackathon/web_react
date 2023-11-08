@@ -32,6 +32,9 @@ function App() {
       <div className='container'>
         <div className='row'>
         {/* // map을 사용하여 반복적으로 data를 불러온다. */}
+        <h1>오늘의 부산 날씨</h1>
+        <p id="temperature"></p>
+        
           {
             shoes.map(function (item, idx) {
               return (
@@ -54,5 +57,7 @@ function Item(props){
   </div>
   )
 }
+
+fetch('https://goweather.herokuapp.com/weather/Busan').then((response)=> response.json()).then((data) => {document.getElementById("temperature").innerHTML = data['temperature'];});
 
 export default App;
