@@ -3,7 +3,7 @@ import { Nav, Navbar,NavDropdown, Container } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import data from './data';	// import 를 선언하여 data.js 변수를 가져와 사용한다.
-
+const cors = require("cors");
 function App() {
 
   let [shoes] = useState(data);	// import로 받은 변수를 useState에 넣어 사용한다.
@@ -34,7 +34,7 @@ function App() {
         {/* // map을 사용하여 반복적으로 data를 불러온다. */}
         <h1>오늘의 부산 날씨</h1>
         <p id="temperature"></p>
-        
+
           {
             shoes.map(function (item, idx) {
               return (
@@ -60,4 +60,5 @@ function Item(props){
 
 fetch('https://goweather.herokuapp.com/weather/Busan').then((response)=> response.json()).then((data) => {document.getElementById("temperature").innerHTML = data['temperature'];});
 
+App.use(cors());
 export default App;
